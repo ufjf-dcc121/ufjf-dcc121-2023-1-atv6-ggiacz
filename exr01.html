@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>soma 2 + 3</title>
+</head>
+<body>
+    <p id="1">2</p>
+    <p id="2">3</p>
+    <p id="soma">?</p>
+    <script>
+        const primeiro = document.getElementById('1');
+        const segundo = document.getElementById('2');
+        const soma = document.getElementById('soma');
+        soma.innerText = `a soma é igual a ${Number(primeiro.innerText)+ Number(segundo.innerText)}`
+    </script>
+</body>
+</html>
